@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'big_noodle1';
+    src: url('../Archivos.CSS/fonts/NHLCOLOR.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'big_noodle2';
+    src: url('../Archivos.CSS/fonts/big_noodle_titling.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'big_noodle3';
+    src: url('../Archivos.CSS/fonts/big_noodle_titling_oblique.ttf') format('truetype');
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url("../Archivos.IMAGENES/BODY/background.png");
+    background-repeat: repeat;
+    background-color: black;
+    font-family: 'big_noodle1', sans-serif;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+aside, footer, header, main, nav{
+    display: block;
+}
+
+.banner{
+    position: relative;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #EDBC1C;
+    background-color: black;
+}
+
+#texto{
+    width: 670px;
+    height: 90px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#cabra1, #cabra2{
+    position: relative;
+}
+
+nav{
+    position: relative;
+    width: auto;
+    height: 50px;
+    top: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #EDBC1C;
+    background-color: black;
+}
+
+li{
+    display: inline;
+    margin-right: 30px;
+    color: white;
+}
+
+li:hover{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+section{
+    float: left;
+    margin-bottom: 23px;
+}
+
+.articuloSection{
+    margin-left: 10px;
+    width: 710px;
+    height: auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 1px solid #EDBC1C;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.articuloPartido{
+    width: 680px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding-top: 15px;
+    border: 1px solid #EDBC1C;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.articuloPartido:hover{
+    background-color: #333;
+}
+
+.enfrentamiento{
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 150px;
+    width: 250px;
+}
+
+.ImgNoticia{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 25px;
+    right: 20px;
+}
+
+.headerArticulo{
+    font-family: 'big_noodle2', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'big_noodle3', sans-serif;
+    color: white;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+figcaption{
+    color: white;
+    margin-left: 22px;
+}
+
+.verMas{
+    font-family: 'big_noodle2', sans-serif;
+    font-size: 20px;
+    color: #EDBC1C;
+}
+
+.verMas:hover{
+    color: blue;
+}
+
+.cajaImagen{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.collage{
+    position: relative;
+}
+
+aside{
+    width: 340px;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 10px;
+    border: 1px solid #EDBC1C;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    float: right;
+    color:  white;
+}
+
+.articuloLateral{
+    width: 320px;
+    height: auto;
+    border: 1px solid #EDBC1C;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 9.5px;
+    margin-bottom: 20px;
+}
+
+#textoLateral{
+    font-family: 'big_noodle2';
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+
+.cuadroForm{
+    width: 180px;
+    height: 20px;
+    border-radius: 5px; 
+    border: 1px solid #EDBC1C;
+    background-color: black;
+    color: white;
+}
+
+.botonesForm{
+    font-family: 'big_noodle3';
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black; 
+    color: white;
+}
+
+footer{
+    width: auto;
+    height: 240px;    
+    border: 1px solid #EDBC1C;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+#redes, #enlaces, #otrosEnlaces{
+    text-align: left;
+    margin-left: 50px;
+
+    width: 200px;
+    height: auto;
+}
+
+#redes{
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#enlaces{
+    position: relative;
+    right: 417px;
+    float: right;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#otrosEnlaces{
+    position: relative;
+    float: right;
+    left: 250px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.enlacesFooter{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.enlacesFooter:hover{
+    text-decoration: underline;
+}
